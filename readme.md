@@ -1,3 +1,14 @@
+# ! This is a temporary fork of [ow by sindresorhus](https://github.com/sindresorhus/ow/) that merges the .catching() method pr
+
+To install the fork:
+
+``` bash
+$ npm install ow--fork-by-jblew-with-catching
+```
+
+
+***
+
 <p align="center">
 	<img src="media/logo.png" width="300">
 	<br>
