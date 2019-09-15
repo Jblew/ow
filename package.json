@@ -14,7 +14,7 @@
 		"node": ">=8"
 	},
 	"scripts": {
-		"prepublishOnly": "npm run build",
+		"prepublishOnly": "npm run compile",
 		"pretest": "npm run compile -- --sourceMap",
 		"test": "xo && nyc ava",
 		"build": "npm run clean && webpack",
