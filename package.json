@@ -1,6 +1,6 @@
 {
 	"name": "ow--fork-by-jblew-with-catching",
-	"version": "0.13.4",
+	"version": "0.13.5",
 	"description": "Function argument validation for humans",
 	"license": "MIT",
 	"repository": "sindresorhus/ow",
@@ -46,12 +46,16 @@
 		"object"
 	],
 	"dependencies": {
-		"type-fest": "^0.7.1"
+		"type-fest": "^0.7.1",
+		"@sindresorhus/is": "^1.0.0",
+		"@types/lodash.isequal": "^4.5.2",
+		"lodash.isequal": "^4.5.0",
+		"vali-date": "^1.0.0",
+		"callsites": "^3.0.0",
+		"dot-prop": "^5.0.1",
 	},
 	"devDependencies": {
-		"@sindresorhus/is": "^1.0.0",
 		"@sindresorhus/tsconfig": "^0.4.0",
-		"@types/lodash.isequal": "^4.5.2",
 		"@types/node": "^12.0.7",
 		"@types/vali-date": "^1.0.0",
 		"@typescript-eslint/eslint-plugin": "^2.0.0",
@@ -59,17 +63,13 @@
 		"add-module-exports-webpack-plugin": "^1.0.0",
 		"ava": "^2.0.0",
 		"awesome-typescript-loader": "^5.2.1",
-		"callsites": "^3.0.0",
 		"codecov": "^3.1.0",
 		"del-cli": "^2.0.0",
-		"dot-prop": "^5.0.1",
 		"eslint-config-xo-typescript": "^0.17.0",
 		"license-webpack-plugin": "^2.0.2",
-		"lodash.isequal": "^4.5.0",
 		"nyc": "^14.1.1",
 		"typedoc": "^0.15.0",
 		"typescript": "~3.5.1",
-		"vali-date": "^1.0.0",
 		"webpack": "^4.33.0",
 		"webpack-cli": "^3.1.2",
 		"xo": "^0.24.0"
