@@ -1,6 +1,6 @@
 {
 	"name": "ow--fork-by-jblew-with-catching",
-	"version": "0.13.3",
+	"version": "0.13.4",
 	"description": "Function argument validation for humans",
 	"license": "MIT",
 	"repository": "sindresorhus/ow",
