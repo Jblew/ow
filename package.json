@@ -1,6 +1,6 @@
 {
 	"name": "ow--fork-by-jblew-with-catching",
-	"version": "0.13.2",
+	"version": "0.13.3",
 	"description": "Function argument validation for humans",
 	"license": "MIT",
 	"repository": "sindresorhus/ow",
@@ -75,7 +75,8 @@
 		"xo": "^0.24.0"
 	},
 	"browser": {
-		"./dist/source/utils/infer-label.js": "./dist/source/utils/infer-label.browser.js"
+		"./dist/source/utils/infer-label.js": "./dist/source/utils/infer-label.browser.js",
+		"fs": false
 	},
 	"types": "dist/source",
 	"sideEffects": false,
